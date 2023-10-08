@@ -642,7 +642,7 @@ getParameters().then((params) => {
 
           // Construct the email content
           const msg = {
-            to: "manu@surajforwarders.com",
+            to: "sameery.020@gmail.com",
             from: reportField.senderEmail,
             subject: "Your Excel Report",
             text: "Your Excel Report",

@@ -86,6 +86,10 @@ getParameters()
         }
       )
       .then(() => {
+        app.get("/", (req, res) => {
+          res.send("Welcome to Exim App");
+        });
+
         app.use(getJobsList);
 
         app.use(getJob);
